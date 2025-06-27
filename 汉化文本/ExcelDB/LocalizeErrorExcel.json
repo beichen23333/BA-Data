@@ -1,0 +1,3999 @@
+[
+  {
+    "fields": [
+      "Jp"
+    ],
+    "mappings": [
+      {
+        "old": [
+          "該当の助っ人の生徒が見つかりませんでした。"
+        ],
+        "new": [
+          "未找到该助力者。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "処理できないリクエストを受け取りました。"
+        ],
+        "new": [
+          "无法处理收到的请求。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "処理できないリクエストを受け取りました。"
+        ],
+        "new": [
+          "无法处理收到的请求。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "パケットのプロトコルが間違っているか、存在しないプロトコルです。"
+        ],
+        "new": [
+          "数据包协议错误或协议不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "セッションが有効ではありません。"
+        ],
+        "new": [
+          "无效的会话。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クライアントのバージョンが一致しません。"
+        ],
+        "new": [
+          "客户端版本错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバー側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "DB側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "数据库处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "財貨が不足しています。"
+        ],
+        "new": [
+          "资源不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既にレアリティが最大です。"
+        ],
+        "new": [
+          "已达到神秘解放上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有数の限度に達しているため、これ以上受け取ることができません。"
+        ],
+        "new": [
+          "已达到持有上限，无法继续领取。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウント情報をDBから見つけることができません。"
+        ],
+        "new": [
+          "无法在数据库中找到账号信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "該当するIDのアカウントがサーバー上に存在しません。"
+        ],
+        "new": [
+          "该账号名不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に存在しているアカウント名です。"
+        ],
+        "new": [
+          "账号名已存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "開発用IDの名前が空欄です。"
+        ],
+        "new": [
+          "未填写开发者编号的名字。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "該当する名前のアカウントは存在しません。"
+        ],
+        "new": [
+          "没有对应名字的账号。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "接続権限がないアカウントです。"
+        ],
+        "new": [
+          "该账号没有访问权限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ニックネームに空白が含まれています。\nニックネームに空白を入れることはできません。"
+        ],
+        "new": [
+          "昵称包含空格。\n昵称中不能包含空格。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "新しいニックネームが、現在使用しているニックネームと同じです。"
+        ],
+        "new": [
+          "新昵称与目前使用的昵称相同。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "使用できない文字が含まれています。ご調整の上、再度ご入力をお願いいたします。"
+        ],
+        "new": [
+          "包含不可使用的文字，请重新输入。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ニックネームが短すぎるか、もしくは長すぎます。"
+        ],
+        "new": [
+          "昵称太短或太长。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証サーバーが処理できないリクエストです。"
+        ],
+        "new": [
+          "认证服务器无法处理该请求。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証サーバーとの通信中に問題が発生しました。"
+        ],
+        "new": [
+          "与认证服务器通信时发生了错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証サーバーからのリクエストの処理中に問題が発生しました。"
+        ],
+        "new": [
+          "处理认证服务器的请求时发生了错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウントを作成できませんでした。"
+        ],
+        "new": [
+          "账号生成失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーがチートコマンドの実行に失敗しました。"
+        ],
+        "new": [
+          "服务器处理命令失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウントと認証コードとの連携に失敗しました。"
+        ],
+        "new": [
+          "将账号与验证码绑定时失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "開発者アカウントを登録できません。"
+        ],
+        "new": [
+          "无法登录开发者账号。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウントの作成に失敗しました。\n既に使用されている認証用のIDです。"
+        ],
+        "new": [
+          "该验证编号已被使用。\n生成账号失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウントのステータスを更新できません。"
+        ],
+        "new": [
+          "无法更新账号状态。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "対象の生徒がいません。"
+        ],
+        "new": [
+          "无对象成员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ロックされた生徒です。"
+        ],
+        "new": [
+          "该成员尚未解锁。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "重複する生徒です。"
+        ],
+        "new": [
+          "该成员已重复。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "部隊に編成されている生徒です。"
+        ],
+        "new": [
+          "该成员已编入部队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "好感度の減少が検知されました。\n好感度の更新を取り消します。"
+        ],
+        "new": [
+          "检测到好感度的减少。\n取消好感度更新。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "好感度が最大に達しました。"
+        ],
+        "new": [
+          "已达到最高等级。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "レア度もしくはレベルが足りないため、レベルアップすることができません。"
+        ],
+        "new": [
+          "因神秘解放或等级不足，无法进行升级。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備がありません。"
+        ],
+        "new": [
+          "没有装备。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "そのスロットには装備することができないアイテムです。"
+        ],
+        "new": [
+          "无法放置在此栏位的装备。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "その装備を販売、または使用することができません。"
+        ],
+        "new": [
+          "无法出售或使用装备。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備しているアイテムです。"
+        ],
+        "new": [
+          "已穿戴该装备。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備のレベルアップに必要な個数を超えています。"
+        ],
+        "new": [
+          "超出装备升级所需的数量。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備が装着されていません。"
+        ],
+        "new": [
+          "未穿戴该装备。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アイテムがありません。"
+        ],
+        "new": [
+          "没有道具。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "そのアイテムを販売、または使用することができません。"
+        ],
+        "new": [
+          "无法出售或使用道具。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アイテム生成中、数量情報を取得できませんでした。"
+        ],
+        "new": [
+          "请求生成道具时遗漏了数量信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アイテム保有数が限度に到達しそうです。"
+        ],
+        "new": [
+          "即将到达道具持有数上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "用途の異なるアイテムです。"
+        ],
+        "new": [
+          "道具使用方式不符合定义。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "神秘解放に必要なアイテムが不足しています。"
+        ],
+        "new": [
+          "神秘解放所需的道具不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "必要なアイテムの量が不足しています。"
+        ],
+        "new": [
+          "道具持有量不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "経験値上昇アイテムを使用中、数量情報を取得できませんでした。"
+        ],
+        "new": [
+          "请求使用经验值提升道具时缺少数量信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リーダーが指定されていません。"
+        ],
+        "new": [
+          "未指定队长。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "部隊が見つかりません。"
+        ],
+        "new": [
+          "未找到部队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦略マップに配置されていない部隊です。"
+        ],
+        "new": [
+          "该部队尚未配置在战略地图。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "部隊スロットが足りません。"
+        ],
+        "new": [
+          "部队栏位不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "他の部隊に編成されている生徒です。"
+        ],
+        "new": [
+          "该成员已编入其他部队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "部隊タイプが指定されていません。"
+        ],
+        "new": [
+          "尚未指定部队类型。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "部隊を誰も編成されていない状態にはできません。"
+        ],
+        "new": [
+          "不能使用空白的部队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "解放条件を満たしていないため、まだプレイすることができません。"
+        ],
+        "new": [
+          "因未满足解锁条件，当前无法进行游戏。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "一日のプレイ回数をすべて使い切りました。"
+        ],
+        "new": [
+          "已耗尽每日次数上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ステージに入れませんでした。"
+        ],
+        "new": [
+          "进入关卡失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ステージの進行情報が存在しないか、有効ではありません。"
+        ],
+        "new": [
+          "关卡进行信息不存在或无效。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "プレイヤーのターンではありません。"
+        ],
+        "new": [
+          "现在不是玩家的回合。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ステージが存在しません。"
+        ],
+        "new": [
+          "关卡不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "チャプターが存在しません。"
+        ],
+        "new": [
+          "章节不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "味方または敵部隊が存在しません。"
+        ],
+        "new": [
+          "我方或敌方部队不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "再配置することができません。"
+        ],
+        "new": [
+          "无法重新配置。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "Normal/Hardの難易度を特定していない要請です。"
+        ],
+        "new": [
+          "该请求未指定普通/困难模式。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に受け取り済みの報酬です。"
+        ],
+        "new": [
+          "已经领取过该奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "勝敗判定に失敗しました。"
+        ],
+        "new": [
+          "胜负判定失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "行動回数をすべて使い切りました。"
+        ],
+        "new": [
+          "已耗尽行动次数。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "緊急手当てができません。"
+        ],
+        "new": [
+          "无法紧急恢复。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "緊急手当の一日の使用回数をすべて使い切りました。"
+        ],
+        "new": [
+          "已耗尽紧急恢复每日使用次数。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "味方の部隊と敵の部隊の位置が異なります。"
+        ],
+        "new": [
+          "我方和敌方部队位置不同。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ行動していない敵部隊がいます。"
+        ],
+        "new": [
+          "存在未行动的敌方部队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘結果の処理に失敗しました。"
+        ],
+        "new": [
+          "战斗结果处理失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "受け取れるメール情報がありません。"
+        ],
+        "new": [
+          "没有可领取的邮件信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "達成条件を満たしていないミッション報酬です。"
+        ],
+        "new": [
+          "请求的奖励未达成任务条件。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "出席簿情報にエラーがあります。"
+        ],
+        "new": [
+          "签到簿信息出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ショップで該当の情報を見つけることができません。"
+        ],
+        "new": [
+          "未找到商店的请求信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ショップ番号とアイテム番号がテーブル値と異なります。"
+        ],
+        "new": [
+          "商店编号与物品编号与表值不同。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アイテム番号がショップテーブルに存在しません。"
+        ],
+        "new": [
+          "商店表中没有该商品编号。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "最大購入可能数を超えました。"
+        ],
+        "new": [
+          "已超出可购买次数上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "これ以上更新することができません。"
+        ],
+        "new": [
+          "无法继续更新。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ショップで該当の情報を見つけることができません。"
+        ],
+        "new": [
+          "未找到商店的请求信息。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造情報がありません。"
+        ],
+        "new": [
+          "没有组合公式信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造に必要な素材が不足しています。"
+        ],
+        "new": [
+          "组合公式所需的材料不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造データに問題があります。"
+        ],
+        "new": [
+          "组合公式数据存在问题。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "該当キャラのメモリアルロビーがありません。"
+        ],
+        "new": [
+          "该角色暂无记忆大厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ロビーのモード変更に失敗しました。"
+        ],
+        "new": [
+          "未能变更大厅模式。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬情報が有効ではありません。"
+        ],
+        "new": [
+          "奖励信息无效。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に受け取り済みの報酬です。"
+        ],
+        "new": [
+          "已经领取过该奖励。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "接続時間が十分ではありませんでした。"
+        ],
+        "new": [
+          "访问时间不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "解放条件を満たしていないため、まだプレイすることができません。"
+        ],
+        "new": [
+          "因未满足解锁条件，当前无法进行游戏。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだカフェが作られていません。"
+        ],
+        "new": [
+          "未生成咖啡厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "家具の配置に失敗しました。"
+        ],
+        "new": [
+          "家具配置失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "家具の位置変更に失敗しました。"
+        ],
+        "new": [
+          "变更家具位置失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "この生徒に交流データが設定されていません。"
+        ],
+        "new": [
+          "没有为成员设置互动数据。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "家具の情報が見つかりません。"
+        ],
+        "new": [
+          "没有找到家具信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "獲得できる財貨がありません。"
+        ],
+        "new": [
+          "没有可获得的资源。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既にクリアしたシナリオです。"
+        ],
+        "new": [
+          "已通关该剧情。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "指定されたシナリオをまだクリアしていません。"
+        ],
+        "new": [
+          "没有通关指定剧情。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "レベルが足りません。"
+        ],
+        "new": [
+          "等级不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "指定された任務ステージをまだクリアしていません。"
+        ],
+        "new": [
+          "没有通关指定的任务关卡。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "登録生徒数が不足しています。"
+        ],
+        "new": [
+          "登记的成员数不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "DBの処理に失敗しました。"
+        ],
+        "new": [
+          "数据库处理失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に読んだことのあるシナリオです。"
+        ],
+        "new": [
+          "已经观看过该剧情。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "DBの処理に失敗しました。"
+        ],
+        "new": [
+          "数据库处理失败。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造情報が見つかりません。"
+        ],
+        "new": [
+          "没有找到制造信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効なノード生成の要求です。"
+        ],
+        "new": [
+          "错误的节点生成请求。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ノードのレベルアップに必要な経験値が不足しています。"
+        ],
+        "new": [
+          "节点升级所需的经验值不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "開始することができません。"
+        ],
+        "new": [
+          "无法开始。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アンカー・ノードではありません。"
+        ],
+        "new": [
+          "不是基础节点。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に製造が始まっています。"
+        ],
+        "new": [
+          "制造已经开始。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造前か、既に製造が完了しています。"
+        ],
+        "new": [
+          "制造未开始或已完成。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造中です。"
+        ],
+        "new": [
+          "正在制造。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "情報を見つけることができません。"
+        ],
+        "new": [
+          "没有找到对应信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シーズン期間ではありません。"
+        ],
+        "new": [
+          "当前不是赛时期间。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "制限時間をオーバーしたので、戦闘が終了しました。"
+        ],
+        "new": [
+          "已超时，战斗结束。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘情報が見つかりませんでした。"
+        ],
+        "new": [
+          "没有找到战斗信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘情報の保存に失敗しました。"
+        ],
+        "new": [
+          "战斗信息保存失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "受け取れる報酬がありません。"
+        ],
+        "new": [
+          "没有可领取的奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に作成済みの総力戦が存在します。"
+        ],
+        "new": [
+          "存在已生成的总力战。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "APが不足しています。"
+        ],
+        "new": [
+          "行动点不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "チケットが不足しています。"
+        ],
+        "new": [
+          "总力战挑战券不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "参加することができません。"
+        ],
+        "new": [
+          "无法参与。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "参加可能な人数を超えました。"
+        ],
+        "new": [
+          "已超出可参与人数。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬情報を受け取ることができません。"
+        ],
+        "new": [
+          "没有收到奖励信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬情報を見つけることができませんでした。"
+        ],
+        "new": [
+          "没有找到奖励信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬を既に受け取っているか、報酬に関する情報が見つかりませんでした。"
+        ],
+        "new": [
+          "已领取奖励或没有相关信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ポイント情報の更新に関してエラーがあります。"
+        ],
+        "new": [
+          "地点信息更新出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬情報の更新に関してエラーがあります。"
+        ],
+        "new": [
+          "奖励信息更新出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬を受け取ることができませんでした。"
+        ],
+        "new": [
+          "奖励领取失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "総力戦を見つけることができませんでした。"
+        ],
+        "new": [
+          "没有找到总力战。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "総力戦が存在しません。"
+        ],
+        "new": [
+          "总力战不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬の受取情報を更新できませんでした。"
+        ],
+        "new": [
+          "未能更新奖励领取情报。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "プレイヤーの参加情報がありません。"
+        ],
+        "new": [
+          "没有玩家参与信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に参加している生徒が含まれています。"
+        ],
+        "new": [
+          "包含已出战的成员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クリア情報を保存することができませんでした。"
+        ],
+        "new": [
+          "未成功保存通关信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に終了した戦闘です。"
+        ],
+        "new": [
+          "战斗已结束。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "情報を見つけることができませんでした。"
+        ],
+        "new": [
+          "无法找到对应信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "入場できない曜日です。"
+        ],
+        "new": [
+          "当前日期无法进入。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "勝利者の情報にエラーがあります。"
+        ],
+        "new": [
+          "胜者信息出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保存情報にエラーがあります。"
+        ],
+        "new": [
+          "保存信息出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬情報が見つかりませんでした。"
+        ],
+        "new": [
+          "无法找到奖励信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "報酬のシード値が更新されませんでした。"
+        ],
+        "new": [
+          "奖励种子未更新。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "撃退した敵の数が最大値を超えました。"
+        ],
+        "new": [
+          "已击败的敌人数量超出最大值。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在開催中のシーズンがありません。"
+        ],
+        "new": [
+          "当前不是赛时期间。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "グループに関する情報が見つかりません。"
+        ],
+        "new": [
+          "无法找到分组相关信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "過去のランキング情報が見つかりません。"
+        ],
+        "new": [
+          "无法找到以往排名信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ランキング情報にエラーがあります。"
+        ],
+        "new": [
+          "排名信息出现错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘情報の設定に失敗しました。"
+        ],
+        "new": [
+          "战斗信息设置失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "本日の報酬は既に受け取り済みです。"
+        ],
+        "new": [
+          "已领取本日奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在開催中のシーズンがありません。"
+        ],
+        "new": [
+          "当前不是赛时期间。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ再度攻撃することができません。\nもうしばらく経ってからお試しください。"
+        ],
+        "new": [
+          "现在还无法再次攻击。\n请稍后再试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "相手が既に戦闘中です。\nリストを更新してください。"
+        ],
+        "new": [
+          "对方已经在战斗中。\n请更新列表。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ挑戦できるランキングではありません。"
+        ],
+        "new": [
+          "无法挑战该排名。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "先に防御チームを設定してください。"
+        ],
+        "new": [
+          "请先完成防御编队。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "対戦履歴がありません。"
+        ],
+        "new": [
+          "没有对战历史。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "学園情報を取得することができませんでした。"
+        ],
+        "new": [
+          "没有获得相关信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "スケジュール情報が見つかりませんでした。"
+        ],
+        "new": [
+          "没有找到日程数据。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "Operationデータを受け取ることができませんでした。"
+        ],
+        "new": [
+          "没有收到操作数据。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に実行済みのスケジュールです。"
+        ],
+        "new": [
+          "已执行该日程。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に実行済みの絆スケジュールです。"
+        ],
+        "new": [
+          "已执行该好感日程。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "生徒が見つかりません。"
+        ],
+        "new": [
+          "无法找到成员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保存情報が見つかりませんでした。"
+        ],
+        "new": [
+          "无法找到保存信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウントの使用が禁止されています。"
+        ],
+        "new": [
+          "账号已被禁止使用，\n如有任何问题请咨询客服！\n封禁周期至："
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証サーバー側でリクエストが拒否されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "认证服务器拒绝了请求。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "接続状態に異常が確認されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "访问无效。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "進行中のセッション情報が存在します。もうしばらく経ってからお試しください。"
+        ],
+        "new": [
+          "进行中的会话信息已存在。请稍后再试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "開発側で使用する機能（強制的にスタンバイ状態に変更する機能）をライブサーバーで要請しました。"
+        ],
+        "new": [
+          "实时服务器发送了使用开发功能的请求（强制变更为待机状态的功能）。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "開発側で使用する機能（強制的にYostar認証を無視する機能）をライブサーバーで要請しました。"
+        ],
+        "new": [
+          "实时服务器发送了使用开发功能的请求（强制无视Yostar验证的功能）。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーとの接続時に問題が発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "连接服务器时出现错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーとの接続時に問題が発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "连接服务器时出现错误。\n将返回标题画面。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーとの接続時に問題が発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "连接服务器时出现错误。\n将返回标题画面。"
+        ],
+        "target_index": 2,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既に使用済みのチケットです。"
+        ],
+        "new": [
+          "该入场券已被使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "解放条件を満たしていないため、まだプレイすることができません。"
+        ],
+        "new": [
+          "因未满足解锁条件，当前无法进行游戏。"
+        ],
+        "target_index": 2,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リクエストが失敗しました。再試行してください。"
+        ],
+        "new": [
+          "请求失败，请重试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ログインに失敗しました。"
+        ],
+        "new": [
+          "登录失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "もう一度お試しください。"
+        ],
+        "new": [
+          "请重试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在サーバーのメンテナンス中です。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器正在维护。\n将退出应用程序。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まもなくサーバーメンテナンスが始まるため、該当コンテンツの利用が制限されました。"
+        ],
+        "new": [
+          "服务器正在维护，当前内容使用受限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーに接続できません。"
+        ],
+        "new": [
+          "无法连接到服务器。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーが混雑しております。\nポップアップ再表示後、OKボタンを押すとログイン処理を再試行します。\n（タイトル画面へ戻ります）"
+        ],
+        "new": [
+          "当前服务器负载过高。\n正在等待登录，请稍候。\n若不想等待，请点击下方确认按钮。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "バージョンが一致していないため、ゲームアプリのアップデートが必要です。"
+        ],
+        "new": [
+          "版本号验证失败，请更新游戏版本。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シリアルコード番号が入力されていません。"
+        ],
+        "new": [
+          "没有输入礼包码编号。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シリアルコードが正しくありません。"
+        ],
+        "new": [
+          "礼包码编号错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シリアルコードの情報が見つかりません。"
+        ],
+        "new": [
+          "没有找到礼包码信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "使用済みのシリアルコードです。"
+        ],
+        "new": [
+          "该礼包码已被使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "登録されていないシリアルコードです。"
+        ],
+        "new": [
+          "未登记的无效礼包码。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "このシリアルコードは削除されています。"
+        ],
+        "new": [
+          "该礼包码已失效。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "承認されていないシリアルコードです。"
+        ],
+        "new": [
+          "该礼包码已兑换。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "締め切りを超えたシリアルコードです。"
+        ],
+        "new": [
+          "该礼包码已失效。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "使用できないシリアルコードです。"
+        ],
+        "new": [
+          "该礼包码无法使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "有効期間内ではないシリアルコードです。"
+        ],
+        "new": [
+          "不符合使用时间的礼包码。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "日付が変わりました。\nデータ更新のため、タイトル画面に戻ります。"
+        ],
+        "new": [
+          "日期已变更。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アイテムの使用期限を超過しました。"
+        ],
+        "new": [
+          "已超出道具使用期限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "IDが見つかりません。"
+        ],
+        "new": [
+          "未找到ID。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入できない商品です。"
+        ],
+        "new": [
+          "无法购买该商品。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ユーザー情報が見つかりません。"
+        ],
+        "new": [
+          "没有找到玩家信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ユーザーレベルが足りません。"
+        ],
+        "new": [
+          "玩家等级不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "最大購入回数を越えています。"
+        ],
+        "new": [
+          "已超出购买上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入記録の保存に失敗しました。"
+        ],
+        "new": [
+          "购买记录保存失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだマンスリー商品を新しく購入できる期間ではありません。"
+        ],
+        "new": [
+          "未到月度商品可购买时间。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "注文情報を取得することができませんでした。"
+        ],
+        "new": [
+          "无法获取订单信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入した注文情報を取得することができませんでした。"
+        ],
+        "new": [
+          "无法获取已购买的订单信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "商品の注文情報を取得することができませんでした。"
+        ],
+        "new": [
+          "无法获取商品的订单信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "マンスリー商品の注文情報を取得することができませんでした。"
+        ],
+        "new": [
+          "无法获取月度商品的订单信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効な支払い要求が発生しました。"
+        ],
+        "new": [
+          "无效的发放请求。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "DBのアップデートに失敗しました。"
+        ],
+        "new": [
+          "数据库更新失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メールを送信することができませんでした。"
+        ],
+        "new": [
+          "邮件发送失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効なアカウント情報です。"
+        ],
+        "new": [
+          "无效的账号信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入履歴を取得することができませんでした。"
+        ],
+        "new": [
+          "无法获取购买信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "マンスリー商品の更新に失敗しました。"
+        ],
+        "new": [
+          "月度商品更新失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証情報が見つかりません。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "无法找到认证信息。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証情報の処理中に、サーバー側でエラーが発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理认证信息时发生错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効な認証情報が検出されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "发现无效认证信息。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "認証情報にエラーがあります。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "认证信息错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ログインの重複が検知されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "发现重复登录。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "有効期限を過ぎた認証情報が存在します。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "认证信息已超时。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "古いサーバーで生成された認証情報が存在します。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "该认证信息为旧版本服务器的信息。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "日付が変わりました。\nデータ更新のため、一度タイトル画面に戻ります。"
+        ],
+        "new": [
+          "日期已变更。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "このチャプターで、まだ達成していない任務目標があります。"
+        ],
+        "new": [
+          "该章节有未达成的任务目标。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "一度設定した呼び名は、\n24時間変更することができません。"
+        ],
+        "new": [
+          "设置昵称后\n72小时内无法变更。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "呼び名が設定されていません。"
+        ],
+        "new": [
+          "未设置昵称。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "呼び名に使用できない文字が含まれています。"
+        ],
+        "new": [
+          "昵称包含无法使用的文字。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "存在しないサークルです。"
+        ],
+        "new": [
+          "抱歉，目前没有找到合适的小组，请稍后再试"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "検索条件に合致するサークルが見つかりませんでした。"
+        ],
+        "new": [
+          "未找到符合搜索条件的小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "名前を入力してください。"
+        ],
+        "new": [
+          "请先填写要搜索的字符。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "すでにサークルに所属しています。"
+        ],
+        "new": [
+          "已经加入了小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "すでにサークルを脱退しています。"
+        ],
+        "new": [
+          "已经离开了小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルを創設することができません。"
+        ],
+        "new": [
+          "无法建立小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "このサークルは満員です。"
+        ],
+        "new": [
+          "该小组成员人数已满。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークル情報を修正する権限がありません。"
+        ],
+        "new": [
+          "抱歉，您已被取消小组管理员身份"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルへの加入申請を承認する権限がありません。"
+        ],
+        "new": [
+          "抱歉，该申请已失效"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メンバーが見つかりません。"
+        ],
+        "new": [
+          "没有找到小组组员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルメンバーを追放できません。"
+        ],
+        "new": [
+          "无法删除小组组员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メンバーが残っている場合、サークルを解散することはできません。"
+        ],
+        "new": [
+          "小组内有其他组员时无法解散小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルを脱退することができません。"
+        ],
+        "new": [
+          "无法离开小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルを脱退してから24時間過ぎた段階で、再度サークル創設、または加入をすることができるようになります。"
+        ],
+        "new": [
+          "离开小组24小时后，才可以建立或加入别的小组。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メンバーの権限変更に失敗しました。 もう一度行ってください。"
+        ],
+        "new": [
+          "组员权限变更失败。请重试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルはすでに解散されています。"
+        ],
+        "new": [
+          "小组已解散。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークルに加入承認待ち状態のユーザーが残っています。\n加入条件の変更は、承認待ち状態のユーザーがいない場合にのみ進行できます。"
+        ],
+        "new": [
+          "处理完申请成员后，才可变更加入条件。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "この権限を持てるメンバー数がいっぱいになりました。"
+        ],
+        "new": [
+          "可以拥有该权限的组员人数已满。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "要請に失敗しました。\nもう一度実行してください。"
+        ],
+        "new": [
+          "请求失败。\n请重试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "要請に失敗しました。\nもう一度実行してください。"
+        ],
+        "new": [
+          "请求失败。\n请重试。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在ご利用いただくことができません。"
+        ],
+        "new": [
+          "当前状态下无法使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ネットワークの状態に問題が生じたため、再試行が必要です。\nロビーに移動します。"
+        ],
+        "new": [
+          "网络连接错误，请重试。\n点击返回大厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リクエストが失敗しました。もう一度お試しください。"
+        ],
+        "new": [
+          "请求失败，请重试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "APの最大値を超えているため、これ以上回復できません。"
+        ],
+        "new": [
+          "已超出行动点持有上限，无法继续购买。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ネットワークの状態が不安定なため、現在一時的にチャット機能を使用することができません。"
+        ],
+        "new": [
+          "网络连接不稳定，暂时无法使用聊天功能。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "有償青輝石の数がマイナスのため、ゲームを進めることができません。"
+        ],
+        "new": [
+          "付费青辉石为负数时，无法进行游戏。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無償青輝石の数がマイナスのため、ゲームを進めることができません。"
+        ],
+        "new": [
+          "免费青辉石为负数时，无法进行游戏。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "入力可能な最大文字数を超えています。"
+        ],
+        "new": [
+          "已超出可输入的字符数上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有数の限度に達しているため、これ以上受け取ることができません。"
+        ],
+        "new": [
+          "已达到持有上限，无法继续领取。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーの設定値に問題があるため、購入処理を行うことができません。"
+        ],
+        "new": [
+          "服务器设置值错误，无法进行购买。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リストの更新時間を超過しました。"
+        ],
+        "new": [
+          "已超出列表更新时间。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "編成の制限時間を超過しました。"
+        ],
+        "new": [
+          "已超出编队时间限制。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "通信環境の状態が更新されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "通信环境已更新。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "通信状態が不安定です。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "通信状态不稳定。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーからの応答がありません。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器无响应。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メモリが不足しています。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "内存不足。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クライアントが正常な状態ではありません。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "客户端异常。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ランキングサーバーからの応答がありません。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "排名服务器无响应。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "更新されたデータがあるため、タイトル画面に戻ります。"
+        ],
+        "new": [
+          "数据已更新，\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバー側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバー側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 2,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバー側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 3,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クライアント側からのリクエスト数の超過を確認しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "客户端在指定时间内发送的请求过多。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "今は戦術対抗戦の報酬を受け取ることができません。"
+        ],
+        "new": [
+          "现在无法获得战术对抗赛奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "受領できる戦術対抗戦の報酬がありません。"
+        ],
+        "new": [
+          "没有可领取的战术对抗赛奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバー側でリクエストの処理に失敗しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "服务器处理请求失败。\n将返回标题画面。"
+        ],
+        "target_index": 4,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在の順位では、まだ防御時の使用マップを指定することができません。"
+        ],
+        "new": [
+          "排名过低，无法指定防御用地图。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "内容の更新が発生したため、再度アクセスをお願いいたします。"
+        ],
+        "new": [
+          "招募已过期。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "キャラクターのレベルが、すでに最大値に到達しています。"
+        ],
+        "new": [
+          "角色等级已达到上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効なステージデータです。"
+        ],
+        "new": [
+          "无效的关卡数据。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "掃討を行うことができません。"
+        ],
+        "new": [
+          "无法执行扫荡。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造において、追加することができない素材です。"
+        ],
+        "new": [
+          "无法加入到制造的材料。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造の実行中に問題が発生しました。"
+        ],
+        "new": [
+          "进行制造时发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "製造データの中に無効なデータが含まれています。"
+        ],
+        "new": [
+          "制造数据包含错误的值。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備のレベルアップに失敗しました。"
+        ],
+        "new": [
+          "装备升级失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備のレベルアップのためには、素材を追加する必要があります。"
+        ],
+        "new": [
+          "需要增加材料进行装备升级。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "装備のTierアップに失敗しました。"
+        ],
+        "new": [
+          "装备进阶失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "商品に問題が発生しています。"
+        ],
+        "new": [
+          "商品存在问题。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "コストが不足しています。"
+        ],
+        "new": [
+          "费用不足。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "誕生日データの更新に失敗しました。"
+        ],
+        "new": [
+          "生日更新失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "コストの消費に失敗しました。"
+        ],
+        "new": [
+          "费用消耗失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入処理に失敗しました。"
+        ],
+        "new": [
+          "购买失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サーバーからの応答がありません。"
+        ],
+        "new": [
+          "服务器无响应。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "時間内に指定された処理を行うことができませんでした。"
+        ],
+        "new": [
+          "指定时间内未完成函数处理。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "アカウント情報の連携中にエラーが発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "同步账号信息时发生错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ゲーム内財貨のデータの同期中にエラーが発生しました。\n一度タイトル画面に戻ります。"
+        ],
+        "new": [
+          "同步资源信息时发生错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シナリオデータのアップデート中にエラーが発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "更新剧情数据时发生错误。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークル名には空白（スペース）を入れることができません。"
+        ],
+        "new": [
+          "小组名包含空格。\n小组名不能包含空格。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "サークル名は2文字以上10文字以下でのみ登録が可能です。"
+        ],
+        "new": [
+          "小组名太短或太长。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "生徒との交流中にエラーが発生しました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "与成员互动时发生错误。\n将返回大厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "対戦相手の順位に変動がありました。\n一度選択画面に戻ります。"
+        ],
+        "new": [
+          "对方排名发生变化。\n将回到战术对抗赛大厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "受領期間を越えたため、報酬を受け取ることができませんでした。"
+        ],
+        "new": [
+          "无法领取奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クライアントに異常が検知されました。\nタイトル画面に戻ります。"
+        ],
+        "new": [
+          "检测到客户端发生更改。\n将返回标题画面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "セキュリティモジュールの初期化に失敗しました。アプリの再起動をお願いいたします。"
+        ],
+        "new": [
+          "安全模组初始化失败，需要重新启动应用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "固有武器が最大レベルに達しました。"
+        ],
+        "new": [
+          "专属武器已达到最高等级。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "限界解放で最大レベルを拡張することができます。"
+        ],
+        "new": [
+          "可通过极限解放扩展最高等级上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "制限時間を超えてしまったため、戦闘終了となりました。"
+        ],
+        "new": [
+          "超出时间限制，战斗已结束。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "総力戦をクリアしていないため、今回のランキング報酬はありませんでした。"
+        ],
+        "new": [
+          "因尚未通关总力战，无法领取排名奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "固有武器のレベルアップに必要な素材量を超えています。"
+        ],
+        "new": [
+          "已超出专属武器升级所需的数量。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "カフェのマイセットに登録されている家具が含まれているため、素材として投入することができませんでした。"
+        ],
+        "new": [
+          "包含已登记在咖啡厅预设中的家具，无法作为制造原料使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "購入の決済処理は完了しましたが、まだ募集が進行されていません。\n下記の時間内に、募集の進行をお願いいたします（決済処理がもう一度行われることはありません）"
+        ],
+        "new": [
+          "购买已结算完成，但还未进行招募。\n请在以下时间内进行招募（不会产生重复购买）"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "残り時間: {0}"
+        ],
+        "new": [
+          "剩余时间: {0}"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "更新された情報が存在します。同期作業が必要なため、一度ロビー画面に戻ります。"
+        ],
+        "new": [
+          "有更新信息需同步，请返回大厅界面。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "データの同期にエラーが発生しました。"
+        ],
+        "new": [
+          "数据同步发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "演習期間が終了しているため入場できません。"
+        ],
+        "new": [
+          "期间已结束，无法入场。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "制限時間を超過しているが、日付が変更されたため、現在入場ができません。"
+        ],
+        "new": [
+          "已超过限制时间或日期产生变化，无法入场。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "演習可能回数が0になっています。"
+        ],
+        "new": [
+          "进行次数已耗尽。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ報酬を受け取っていない演習があるため、新たな演習を開始できません。"
+        ],
+        "new": [
+          "有尚未领取的奖励，无法开始新的游戏。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "すでに報酬を受け取っている演習です。"
+        ],
+        "new": [
+          "已获得过奖励。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "演習が存在しません。"
+        ],
+        "new": [
+          "房间不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "異常なデータ要請が発生しました。"
+        ],
+        "new": [
+          "发生无效数据请求。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "データにエラーが発生しました。"
+        ],
+        "new": [
+          "数据错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "決済処理は正常に完了いたしました。「募集」自体はまだ完了していないため、再度「募集」画面から進行をお願いいたします（決済処理がもう一度行われることはありません）"
+        ],
+        "new": [
+          "结算已正常完成，但尚未完成招募，请再次在招募界面进行招募（不会产生反复购买）"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "投入されている素材が、必要数を超えています。"
+        ],
+        "new": [
+          "使用的材料已超过必要数字。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "投入されている素材が、必要数を超えています。"
+        ],
+        "new": [
+          "使用的材料已超过必要数字。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "投入されている素材が、必要数を超えています。"
+        ],
+        "new": [
+          "使用的材料已超过必要数字。"
+        ],
+        "target_index": 2,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "テキストが間違っています、再度正しくご入力をお願いします。"
+        ],
+        "new": [
+          "请输入正确的文字。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "商品を1つ以上購入した後に、「更新」をすることができます。"
+        ],
+        "new": [
+          "购买1件商品后即可进行更新。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "メモリアルロビーを持っている生徒がいません。"
+        ],
+        "new": [
+          "不存在拥有记忆大厅的成员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "新しいデータがあります。アップデートが必要なため、再接続します。"
+        ],
+        "new": [
+          "因有新增数据需要更新，重新连接。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "編成不可生徒が含まれた状態では出撃できません。"
+        ],
+        "new": [
+          "包含不可编组的成员，无法出击。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フレンド数が最大に達したため、申請できません。"
+        ],
+        "new": [
+          "好友数已达到上限，无法申请。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フレンド数が最大に達したため、申請を受け入れることができません。"
+        ],
+        "new": [
+          "好友数已达到上限，无法接受申请。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "申請中のフレンド数が最大に達したため、これ以上申請できません。"
+        ],
+        "new": [
+          "申请中的好友数已达到上限，无法申请好友。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "相手のフレンド数が最大に達したため、フレンド申請はできません。"
+        ],
+        "new": [
+          "对方的好友数已达到上限，无法申请好友。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "相手のフレンド数が最大に達したため、フレンド申請はできません。"
+        ],
+        "new": [
+          "对方待接受的好友请求数已达到上限，无法申请好友。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "相手はフレンドではありません。"
+        ],
+        "new": [
+          "对方不是好友。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既にフレンド登録済みです。"
+        ],
+        "new": [
+          "已加为好友。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "IDカード作成に失敗しました。"
+        ],
+        "new": [
+          "创建ID卡失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "入力したフレンドコードが存在しません。"
+        ],
+        "new": [
+          "输入的好友码不存在。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フレンド申請を承認できないユーザーです。"
+        ],
+        "new": [
+          "此用户为无法接受好友申请的用户。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リクエストが失敗しました。もう一度お試しください。"
+        ],
+        "new": [
+          "请求失败，请再试一次。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "自分にフレンド申請はできません。"
+        ],
+        "new": [
+          "无法向自己发送好友申请。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "自分のフレンドコードです。"
+        ],
+        "new": [
+          "此为自己的好友码。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ使用していないチケットがあります。\n以下の期間内にチケットを使用してください。"
+        ],
+        "new": [
+          "有尚未使用的自选券。\n请在以下期间内使用。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "★3生徒セレクトチケットがありません。\nチケットを購入したあと、生徒をセレクトすることができます。"
+        ],
+        "new": [
+          "未持有3★成员自选券。\n购买自选券后，可选择成员招募。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "この商品はアカウントごとに1回のみ購入できます。"
+        ],
+        "new": [
+          "此商品每个账号只能购买1次。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "既にこのボスは倒されています。"
+        ],
+        "new": [
+          "此首领已被击败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在挑戦できない戦闘です。"
+        ],
+        "new": [
+          "目前无法挑战此战斗。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在挑戦できない戦闘です。"
+        ],
+        "new": [
+          "目前无法挑战此战斗。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在挑戦できない戦闘です。"
+        ],
+        "new": [
+          "目前无法挑战此战斗。"
+        ],
+        "target_index": 2,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在受け取り可能な期間ではありません。"
+        ],
+        "new": [
+          "目前非可获取期间。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "入力可能な最大文字数を超えています。"
+        ],
+        "new": [
+          "已超过可输入的最大字数。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "残り時間: {0}"
+        ],
+        "new": [
+          "剩余时间: {0}"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "同種のシリアルコードは重複使用できません。"
+        ],
+        "new": [
+          "无法重复兑换礼包码"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "使用済みのシリアルコードです。"
+        ],
+        "new": [
+          "此礼包码已被使用。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "本日の助っ人編成可能回数をすべて使用しました。"
+        ],
+        "new": [
+          "今天的助力者可编队次数已用尽。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "すでに編成されている部隊は変更することができません。"
+        ],
+        "new": [
+          "已编组的部队无法更改。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "編成不可生徒が含まれています。"
+        ],
+        "new": [
+          "包含不可编组的成员。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有していない背景です。"
+        ],
+        "new": [
+          "尚未拥有此背景。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "助っ人の生徒だけで戦闘に入場することはできません。"
+        ],
+        "new": [
+          "无法只使用助力者进入战斗。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "味方領域に隣接していないため進めません。"
+        ],
+        "new": [
+          "未与我方领域相邻，无法前进。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効な助っ人設定です。"
+        ],
+        "new": [
+          "无法只使用助力者进入战斗。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "助っ人の生徒だけで戦闘に入場することはできません。"
+        ],
+        "new": [
+          "无法只使用助力者进入战斗。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有上限を超えています。\nアイテムを消費してからもう一度お試しください。"
+        ],
+        "new": [
+          "超过了持有上限。\n请消耗道具后再尝试。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "現在のレベルより高い難易度です。挑戦しますか？"
+        ],
+        "new": [
+          "是比现在的等级更高的难易度。\n要挑战吗？"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "まだ準備中の難易度です。"
+        ],
+        "new": [
+          "还在准备中的难易度。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有していないステッカーです。"
+        ],
+        "new": [
+          "未持有的贴纸。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "保有していないステッカーです。"
+        ],
+        "new": [
+          "未持有的贴纸。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "スクラップブックの情報がありません。"
+        ],
+        "new": [
+          "没有贴纸簿信息。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "貼付済みのステッカーです。"
+        ],
+        "new": [
+          "已黏贴的贴纸。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "無効なステージです。"
+        ],
+        "new": [
+          "无效的关卡。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クリア部隊情報が期限切れになりました。"
+        ],
+        "new": [
+          "通关部队信息已到期。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フィールド探索のデータが見つかりませんでした。"
+        ],
+        "new": [
+          "未找到场地探索数据。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "対象との相互作用に失敗しました。"
+        ],
+        "new": [
+          "和对象互动失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クエストクリアにエラーが発生しました。"
+        ],
+        "new": [
+          "任务完成时发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "イベントシーンの変更に失敗しました。"
+        ],
+        "new": [
+          "活动场景变更失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フィールド探索の終了に失敗しました。"
+        ],
+        "new": [
+          "场地探索结束失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "クエストの生成に失敗しました。"
+        ],
+        "new": [
+          "任务生成失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リプレイ情報のリセットに失敗しました。"
+        ],
+        "new": [
+          "重玩信息重置失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "熟練度の増加にエラーが発生しました。"
+        ],
+        "new": [
+          "熟练度增加时发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘データにエラーが発生しました。"
+        ],
+        "new": [
+          "战斗数据发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "戦闘入場に失敗しました。"
+        ],
+        "new": [
+          "战斗入场失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フィールド探索イベント期間が終了しました。"
+        ],
+        "new": [
+          "场地探索活动期间已结束。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フィールド探索に必要な条件を満たしていません。"
+        ],
+        "new": [
+          "不符合场地探索所需的条件。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "約束をするのに必要な条件を満たしていません。"
+        ],
+        "new": [
+          "不符合邀请约会所需的条件。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "鑑賞中のエンディングストーリーがあります。\n「つづきから」を再度お試しください。"
+        ],
+        "new": [
+          "当前存在正在鉴赏中的故事。\n请再次尝试从序章开始。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "選択可能な最大ステージ数を超えています。"
+        ],
+        "new": [
+          "已超出可选择的最大关卡数量。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リクエストが失敗しました。再試行してください。"
+        ],
+        "new": [
+          "请求失败，请重试。"
+        ],
+        "target_index": 1,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ユーザー情報を確認できません"
+        ],
+        "new": [
+          "无法确认用户信息"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "フレンドを申請できません"
+        ],
+        "new": [
+          "无法申请添加好友"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "編成に適用した助っ人の生徒が見つかりませんでした。\n編成内容を更新します"
+        ],
+        "new": [
+          "未找到应用于编队的支援学生。\n将更新编队内容。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ブロックリストの人数が最大に達したため、ブロックを設定できません"
+        ],
+        "new": [
+          "由于黑名单人数已达上限，无法进行屏蔽设置。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "設定可能アイテム数を超えています。"
+        ],
+        "new": [
+          "可设置的物品数量已达上限。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "シリアルコードの同期中にエラーが発生しました。"
+        ],
+        "new": [
+          "序列号同步过程中发生错误。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "リクエストが失敗しました。"
+        ],
+        "new": [
+          "请求失败。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "ニックネームの変更が不可能な状態です。"
+        ],
+        "new": [
+          "当前状态无法更改昵称。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "挨拶変更が不可能な状態です。"
+        ],
+        "new": [
+          "当前状态无法更改问候语。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "呼び名変更が不可能な状態です。"
+        ],
+        "new": [
+          "当前状态无法更改称呼。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "呼びのプレイが不可能な状態です。"
+        ],
+        "new": [
+          "当前状态无法进行呼唤游玩。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "訪問可能なカフェがありません。"
+        ],
+        "new": [
+          "没有可访问的咖啡厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "このユーザーのカフェには訪問できません。"
+        ],
+        "new": [
+          "无法访问该用户的咖啡厅。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      },
+      {
+        "old": [
+          "このユーザーのカフェが解禁されていないため、訪問できません。"
+        ],
+        "new": [
+          "该用户的咖啡厅尚未解禁，无法访问。"
+        ],
+        "target_index": 0,
+        "replacement_count": 1
+      }
+    ]
+  }
+]
