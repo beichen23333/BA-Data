@@ -1,0 +1,51 @@
+name: Auto Push to beicheng
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '汉化文本/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Clone beicheng repo
+      env:
+        APK_SRC_REPO: ${{ secrets.APK_SRC_REPO }}
+      run: |
+        git clone https://x-access-token:${{ secrets.APK_SRC_REPO }}@github.com/asfu222/beicheng.git
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+
+    - name: Copy files to beicheng repo
+      run: |
+        mkdir -p beicheng/latest/TableBundles/buildSrc
+        cp -r 汉化文本/* beicheng/latest/TableBundles/buildSrc/
+
+    - name: Check for changes in beicheng repo
+      id: check_changes
+      run: |
+        cd beicheng
+        if git diff --quiet; then
+          echo "No changes detected."
+          echo "::set-output name=has_changes::false"
+        else
+          echo "Changes detected."
+          echo "::set-output name=has_changes::true"
+        fi
+
+    - name: Push changes to beicheng
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        cd beicheng
+        git add latest/TableBundles/buildSrc/
+        git commit -m "Update buildSrc from 汉化文本"
+        git push origin main
