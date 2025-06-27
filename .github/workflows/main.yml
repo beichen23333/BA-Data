@@ -16,9 +16,9 @@ jobs:
 
     - name: Clone beicheng repo
       env:
-        APK_SRC_REPO: ${{ secrets.APK_SRC_REPO }}
+        TARGET_REPO_URL: https://x-access-token:${{ secrets.APK_SRC_REPO }}@github.com/asfu222/beicheng.git
       run: |
-        git clone https://x-access-token:${{ secrets.APK_SRC_REPO }}@github.com/asfu222/beicheng.git
+        git clone "$TARGET_REPO_URL"
 
     - name: Configure Git
       run: |
